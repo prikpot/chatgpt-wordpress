@@ -1,0 +1,34 @@
+#chatgpt-response-container {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+#chatgpt-client-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#chatgpt-client-form label {
+    margin-bottom: 8px;
+}
+
+#chatgpt-client-form input {
+    margin-bottom: 8px;
+}
+
+#chatgpt-client-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-bottom: 8px; /* Added margin-bottom to create space below the button */
+}
+
+#chatgpt-client-form button:hover {
+    background-color: #218838;
+}
